@@ -2,7 +2,7 @@
 // import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Task from './Task';
+import Task from './ask';
 
 function App() {
   
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path='./frontendtask/' element={<Task/>}>
+        <Route path='/' element={<Task/>}>
         </Route>
         
       </Routes></BrowserRouter>
