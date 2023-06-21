@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Task/>}>
+        <Route path='/frontendtask' element={<Task/>}>
         </Route>
         
       </Routes></BrowserRouter>
